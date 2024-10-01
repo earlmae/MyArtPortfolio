@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  background-color: #EAD9A8;
+  color:  #335F70;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+p{
+    font-size: 1rem; 
+    font-weight: 500;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+<body>
+
+<div class="header">
+  <h1>Art Gallery</h1>
+  <p>This gallery showcases a carefully curated compilation of my
+     creative works, offering a<br> glimpse into the
+     various styles and mediums I've explored throughout my artistic journey.</p>
+</div>
+
+<div class="row"> 
+  <div class="column">
+    <img src="image/pretty.png" style="width:100%">
+    <img src="image/skate.png" style="width:100%">
+    <img src="image/red.png" style="width:100%">
+    <img src="image/endfworld.png" style="width:100%">
+    <img src="image/donut.png" style="width:100%">
+    <img src="image/g.jpg" style="width:100%">
+    <img src="image/au.png" style="width:100%">
+  </div>
+  
+  <div class="column">
+    <img src="image/donut.png" style="width:100%">
+    <img src="image/sorryIbrokeIt.png" style="width:100%">
+    <img src="image/sea.png" style="width:100%">
+    <img src="image/room.png" style="width:100%">
+    <img src="image/k.jpg" style="width:100%">
+    <img src="image/meh.png" style="width:100%">
+  </div> 
+   
+  <div class="column">
+    <img src="image/seans.png" style="width:100%">
+    <img src="image/lil.png" style="width:100%">
+    <img src="image/girls.png" style="width:100%">
+    <img src="image/luffy.jpg" style="width:100%">
+    <img src="image/um.jpg" style="width:100%">
+    <img src="image/smoke.png" style="width:100%">
+    <img src="image/shroom.png" style="width:100%">
+  </div>
+  
+  <div class="column">
+    <img src="image/bunny.png" style="width:100%">
+    <img src="image/girlinred.png" style="width:100%">
+    <img src="image/recharge.png" style="width:100%">
+    <img src="image/starry.jpg" style="width:100%">
+    <img src="image/bday.png" style="width:100%">
+    <img src="image/lapy.png" style="width:100%">
+  </div>
+</div>
+
+</body>
+</html>
+
+
