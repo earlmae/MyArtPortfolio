@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .img-fluid {
+            width: 40%;
+            z-index: 2; 
+            position: relative; 
+        }
+        body {
+            background-color: #EAD9A8;
+        }
+        .text-center {
+            font-size: 9rem;
+            height: 100px; 
+            transform: scaleY(3);  
+            font-weight: 700;
+            color: #335F70;
+            z-index: 1; 
+            position: relative; 
+        }
+        .description {
+            font-size: 1rem; 
+            color: #335F70; 
+            max-width: 30%; 
+            position: absolute; 
+            left: 5%; 
+            top: 70%; 
+            transform: translateY(-50%); 
+            font-weight: 500;
+        }
+        .custom-button {
+            background-color: #9B4A3C;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            left: 5%; 
+            top: 85%; 
+            font-size: 20px;
+            font-family: Arial, sans-serif;
+            position: absolute;
+            display: inline-block;
+            text-align: center;
+            box-shadow: 5px 5px 0 0 #4A1A1A;
+           
+           
+            
+        }
+        .custom-button .fa-arrow-right {
+            margin-left: 10px;
+        }
+        .button-container {
+            display: inline-block;
+            
+        }
+        .social-icons {
+            position: absolute; 
+            right: 5%; 
+            bottom: 10%; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px; 
+        }
+        .social-icons a {
+            color: #2f4f4f;
+            font-size: 2rem;
+            margin: 0 10px; 
+            text-decoration: none;
+        }
+
+
+
+        @media (max-width: 800px) and (max-width: 1200px) {
+    .text-center {
+        font-size: 3rem;
+        position: absolute;
+        top: 20%; 
+      
+      
+    
+    }
+    
+   
+
+    .img-fluid {
+        width: 45%;
+        align-items: center;
+        position: relative;
+        margin-top: 100px; }
+
+    .social-icons {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        top: -6%;
+        left: 0;
+    }
+
+    .description {
+        position: relative;
+        max-width: 90%;
+        text-align: center;
+        margin-top: 20px;
+       
+        left: 0;
+        top: 15%;
+        
+    }
+
+    .custom-button {
+        position: relative;
+        left: 0; 
+        top: -20%; 
+        margin: 20px auto; 
+        text-decoration: none;
+        padding: 10px 20px;
+
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <section class="one d-flex flex-column justify-content-center align-items-center position-relative" style="height: 100vh;">
+            <div class="flex-grow-1"></div> 
+            <h1 class="text-center">EARLLUSTRATION</h1>
+            <img src="front.png" alt="Centered Image" class="img-fluid"> <!-- Image stays centered -->
+            <p class="description">As a self-taught artist, I have a versatile style in both 
+                digital and traditional art. My digital work is soft, minimal, 
+                and nostalgic, using pale color palettes to create a cozy ambiance. 
+                In traditional art, I use expressive brushstrokes to capture a raw yet meaningful aesthetic.
+            </p>
+            <div class="button-container">
+                <a href="Gallery.html"> <button class="custom-button">View Gallery <i class="fas fa-arrow-right"></i></button></a>
+            </div>
+            <div class="social-icons">
+                <a href="https://instagram.com/earllustration"><i class="fab fa-instagram"></i></a>
+                <a href="https://dribbble.com/earl-chan"><i class="fab fa-dribbble"></i></a>
+                <a href="https://www.linkedin.com/in/earlene-mae-rama-a3ba30320/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/earlmae"><i class="fab fa-github"></i></a>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
